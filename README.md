@@ -21,7 +21,7 @@ Connect the navigation links that are located in the index.html to point to the 
  The link that points to the product detail will need to pass along the id of the item being clicked ui-sref="details(id: the id )"".
 
 ``5``
-This will be the hardest view to get working. You'll need to check the state params for the id being passed along in the route.
+Product-details.html will be the hardest view to get working. You'll need to check the state params for the id being passed along in the route.
 After you have that id you'll need to make an api call to http://practiceapi.devmounta.in/products + the id being passed in the route.
 This will return the specific item based off the id you passed.
 Put that item on $scope and display in the view.
