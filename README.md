@@ -1,4 +1,4 @@
-# front-end-assessment
+# Angular assessment
 
 
 ``1``
