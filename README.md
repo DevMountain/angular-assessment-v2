@@ -37,5 +37,13 @@ After you have that id you'll need to make an api call to http://practiceapi.dev
 This will return the specific item based off the id you passed.
 Put that item on $scope and display in the view.
 
+``9``
+Host your solution on github pages.
+* Open the termal to where this assessment is
+* Add and commit all of your completed code.
+* Type git checkout -b gh-pages
+* Type git push -u origin gh-pages
+* Find your account name on github and insert it into this url http://YourGithubAccountName.github.io/angular-assessment
+Open that url to make sure it works, then send that url to your assigned mentor!
 
 # Congratulations! you have finished the assessment
