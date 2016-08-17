@@ -2,7 +2,7 @@
 
 
 ``1``
- Create a basic angular app that includes a mainCtrl,mainService, app.js and routes.js The index.html file is included in this repo so you don't need to add one.
+ Create a basic angular app that includes a mainCtrl, mainService, app.js and routes.js The index.html file is included in this repo so you don't need to add one.
 
 ``2``
  Setup your router, states, and ui-view so that the home.html loads first. Also set up the routes for the about.html, blog.html and pets.html.
@@ -12,7 +12,7 @@
 
 ``4``
  After you have your routing setup you can start working on getting the data you'll need.
- For the shop.html view you're going to need to make an api call to http://practiceapi.devmounta.in/pets to get all the pets.
+ For the pets.html view you're going to need to make an api call to http://practiceapi.devmounta.in/pets to get all the pets.
 
  ``5``
  Pet needs to be a directive.  The template is provided for you in pet-tmpl.html.
@@ -22,7 +22,7 @@
  All the styles are completed for you already so you'll just need to display the data in the right spot. LOOK FOR COMMENTS.
 
  ``6``
- Show all the pets on the shop.html page using your pet directive.
+ Show all the pets on the pets.html page using your pet directive.
 
  ``7``
  After your data is displaying correctly you'll need to get the pet-bio view configured.
