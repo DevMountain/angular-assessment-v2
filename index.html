@@ -17,10 +17,10 @@
                             <a ui-sref="pets">Pets</a>
                         </li>
                         <li>
-                            <a>Blog</a>
+                            <a ui-sref="blog">Blog</a>
                         </li>
                         <li>
-                            <a>About</a>
+                            <a ui-sref="about">About</a>
                         </li>
                     </ul>
 
@@ -35,7 +35,7 @@
         <!--This is the main wrapper -->
         <main class="site-main" role="main">
 
-
+          <ui-view></ui-view>
 
         </main>
         </div>
@@ -44,5 +44,20 @@
 <!--ADD ALL YOUR SCRIPTS HERE -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
+<script src="./js/app.js"></script>
+
+<!-- SERVICES  -->
+<script src="./js/services/mainService.js"></script>
+
+<!-- CONTROLLERS  -->
+<script src="./js/controllers/mainCtrl.js"></script>
+<script src="./js/controllers/petsCtrl.js"></script>
+<script src="./js/controllers/bioCtrl.js"></script>
+
+
+<!-- DIRECTIVES  -->
+<script src="./js/directives/petDir.js"></script>
 </body>
 </html>
