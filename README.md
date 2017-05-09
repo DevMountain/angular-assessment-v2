@@ -13,7 +13,7 @@ Fork and clone this repo before step 1.
 
 ``4``
  After you have your routing setup you can start working on getting the data you'll need.
- For the pets.html view you're going to need to make an api call to http://practiceapi.devmounta.in/pets to get all the pets.
+ For the pets.html view you're going to need to make an api call to https://practiceapi.devmountain.com/pets to get all the pets.
 
  ``5``
  Pet needs to be a directive.  The template is provided for you in pet-tmpl.html.
@@ -34,7 +34,7 @@ Fork and clone this repo before step 1.
 
 ``8``
 Pet-bio.html will be the hardest view to get working. You'll need to check the state params for the id being passed along in the route.
-After you have that id you'll need to make an api call to http://practiceapi.devmounta.in/pets/ + the id being passed in the route.
+After you have that id you'll need to make an api call to https://practiceapi.devmountain.com/pets/ + the id being passed in the route.
 This will return the specific item based off the id you passed.
 Put that item on $scope and display in the view.
 
